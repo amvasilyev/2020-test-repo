@@ -1,4 +1,7 @@
 class MyComplex
+  attr_reader :imaginary
+  attr_reader :real
+  
   def initialize(real, imaginary)
     @real = real
     @imaginary = imaginary

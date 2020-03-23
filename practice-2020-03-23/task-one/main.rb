@@ -5,5 +5,7 @@ complex_two = MyComplex.new(15, -60)
 
 pp complex_one
 puts complex_one
+puts complex_one.real
 pp complex_two
 puts complex_two
+puts complex_two.imaginary
