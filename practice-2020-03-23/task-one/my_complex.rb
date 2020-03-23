@@ -1,7 +1,6 @@
 class MyComplex
-
-end
-
-if __FILE__ == $0
-  
+  def initialize(real, imaginary)
+    @real = real
+    @imaginary = imaginary
+  end
 end
