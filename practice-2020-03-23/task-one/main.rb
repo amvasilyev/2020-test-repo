@@ -9,3 +9,6 @@ puts complex_one.real
 pp complex_two
 puts complex_two
 puts complex_two.imaginary
+
+sum = complex_one.add(complex_two)
+puts "Sum of the complex numbers: #{sum}"
